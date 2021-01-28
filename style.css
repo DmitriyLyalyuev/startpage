@@ -4,13 +4,10 @@
 }
 
 html {
-
 	background: #2e2e2e;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
-	//font-style: italic;
 	font-size: 1.0em;
 	color: #ff8000;
 	font-family: roboto;
@@ -18,21 +15,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-font-family: roboto;
-color: #9d9d9d;
-font-size: 0.8em;
-text-decoration: none;
+	font-family: roboto;
+	color: #9d9d9d;
+	font-size: 0.8em;
+	text-decoration: none;
 }
 
 a {
-
-font-family: roboto;
-text-transform: lowercase;
-color: #9d9d9d;
-font-size: 0.8em;
-text-decoration: none;
-display: block;
-margin-bottom: 2px;
+	font-family: roboto;
+	text-transform: lowercase;
+	color: #9d9d9d;
+	font-size: 0.8em;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 2px;
 }
 
 a:hover {
@@ -48,7 +44,6 @@ a:hover {
 	float: left;
 }
 
-
 .tag p {
 	font-family: roboto;
 	font-size: 0.8em;
@@ -57,9 +52,6 @@ a:hover {
 }
 
 #container {
-	
-	
-	
 	height: 450px;
 	width: 800px;
 	background: #2e2e2e;
@@ -74,8 +66,6 @@ a:hover {
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 75px;
-	// border-bottom: 2px dotted #ff8000;
-	
 }
 
 
@@ -93,27 +83,25 @@ a:hover {
 	
 }
 
-#quote{
+#search {
 	height: auto;
 	width: 800px;
 	background: #2e2e2e;
 	position: relative;
-	top:0;
-	bottom: 0;
+	top: 10;
+	bottom: 10;
 	left: 0;
 	right: 0;
 	
 	margin-left: auto;	
 	margin-right: auto;	
-	margin-top: -125px;
-	
+	margin-top: 10px;
 }
 
-/* AWAD below is for the quote too. */
+#search input {
+	width: 800px;
+}
 
-.AWAD_title
-{font-family: roboto; font-size: 0.6em; color: #2e2e2e;}
-.AWAD_quotation
-{font-family: roboto; font-size: 0.6em; color: #9d9d9d;}
-.AWAD_byline
-{font-family: roboto; font-size: 0.6em; color: #2e2e2e; font-style: italic;}
+#search form {
+	height: 30px;
+}
