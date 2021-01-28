@@ -85,23 +85,23 @@ a:hover {
 
 #search {
 	height: auto;
-	width: 800px;
+	width: 600px;
 	background: #2e2e2e;
 	position: relative;
+	float: left;
 	top: 10;
 	bottom: 10;
 	left: 0;
 	right: 0;
-	
-	margin-left: auto;	
+	margin-left: 0px;	
 	margin-right: auto;	
-	margin-top: 10px;
+	margin-top: 0px;
 }
 
 #search input {
-	width: 800px;
+	width: 600px;
 }
 
 #search form {
-	height: 30px;
+	height: 40px;
 }
