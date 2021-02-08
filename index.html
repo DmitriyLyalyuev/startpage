@@ -17,15 +17,9 @@
 			<div class="tag">
 				<p>Search</p>
 			</div>
-			<form id="search" method="POST" action="https://search.dntsk.dev/search">
+			<form id="search" method="GET" action="https://www.google.com/search">
 				<input id="q" autofocus name="q" type="text" placeholder="Искать..." tabindex="1" autocomplete="off" spellcheck="false" dir="auto">
 				<button id="send_search" type="submit" tabindex="-1" style="display: none;"></button>
-				<select class="language" id="language" name="language" tabindex="2" style="display: none;">
-					<option value="ru-RU" selected="selected">Русский - ru-RU</option>
-				</select>
-				<input type="checkbox" id="checkbox_general" name="category_general" checked="checked" style="display: none;"/>
-				<input type="checkbox" id="checkbox_it" name="category_it" checked="checked" style="display: none;"/>
-				<input type="hidden" name="safesearch" value="0">
 			</form>
 		</div>
 
